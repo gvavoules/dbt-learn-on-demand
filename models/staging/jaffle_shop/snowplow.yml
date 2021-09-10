@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: snowplow
+    database: dbt-tutorial
+    tables:
+      - name: events
+        description: Raw events data.
